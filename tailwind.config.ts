@@ -10,8 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: 'hsl(var(--background))',
-        "secondary-background": 'hsl(var(--secondary-background))'
+        gray: "var(--gray)",
+        border: "var(--border)",
+        primary: "var(--primary)",
+        background: "var(--background)",
+        "muted-primary": "var(--muted-primary)",
+        "secondary-background": "var(--secondary-background)",
+        "muted-foreground": "var(--muted-foreground)",
       }
     },
   },
