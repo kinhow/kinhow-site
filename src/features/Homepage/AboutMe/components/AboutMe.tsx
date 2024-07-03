@@ -8,7 +8,7 @@ const AboutMe = () => {
       </p>
 
       <p className="leading-7">
-        When I’m not at the computer, I’m usually jogging, camping, spending time with my wife, or playing games.
+        When I&apos;m not at the computer, I&apos;m usually jogging, camping, spending time with my wife, or playing games.
       </p>
     </div>
   )

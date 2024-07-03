@@ -32,7 +32,7 @@ export const EXPERIENCE = [
     ]
   },
   {
-    company: "Asia F﻿usion Technology Ltd",
+    company: "Asia Fusion Technology Ltd",
     position: [
       {
         title: "Software Engineer",
@@ -51,7 +51,7 @@ export const EXPERIENCE = [
     company: "Fourtitude.asia",
     position: [
       {
-        title: "Junior Front-end Develo﻿per",
+        title: "Junior Front-end Developer",
         duration: "2016 - 2018",
         scope: [
           "Assigned to work at client company(11street) as Front-end Developer",
