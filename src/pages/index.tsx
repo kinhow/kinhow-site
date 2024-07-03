@@ -1,17 +1,18 @@
-import { ProfileName } from "@/components";
+import { Roboto_Mono } from "next/font/google";
+import { WorkExperience, ProfileSection } from "@/features/Homepage";
+
+const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 
 const Home = () => {
   return (
-    <section className="p-4 flex-1 flex flex-col gap-6 items-center justify-center">
-      <ProfileName
-        name={"I'M KINHOW"}
-        className="md:text-8xl sm:text-4xl text-3xl tracking-widest font-bold"
-      />
-      <div className="flex flex-col items-center text-muted-primary text-lg">
-        <p>Self-taught <span className="text-white font-semibold">Front-end Web Developer</span></p>
-        <p>who thrives on learning new technologies and tackling fresh challenges</p>
+    <main className={`text-muted-primary ${robotoMono.className}`}>
+      <div className="flex p-8 md:px-8 md:p-0 max-w-screen-xl">
+        <div className="grid gap-20 md:gap-8 md:grid-cols-12 relative">
+          <ProfileSection />
+          <WorkExperience />
+        </div>
       </div>
-    </section>
+    </main>
   )
 }
 

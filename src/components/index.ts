@@ -1,1 +1,1 @@
-export * from './ProfileName';
+export * from './LinkButton';
